@@ -1,0 +1,235 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+div.modalContent{
+    
+    width: 600px;
+    height: 560px;
+    z-index: 1;
+    padding: 10px 15px;
+
+    background-color: aliceblue;
+    color: #000;
+
+    border: 2px solid #000;
+    border-radius: 15px;
+
+}
+
+div.modalContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+div.modalContainer div.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div.modalContainer div.footer{
+
+    position: relative;
+    width: 100%;
+    margin-top: 7rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+div.Modal button#close{
+
+    background-color: #E3242B;
+    color: white;
+
+}
+
+div.Modal button.btnClose{
+    transform: translate(-264px, 20px);
+}
+
+div.Modal button#close:hover{
+    background-color: #D21404;
+}
+
+div.Modal button#continue{
+    background-color: #1338BE;
+    color: white;
+}
+
+div.Modal button#continue:hover{
+    background-color: #1520A6;
+    color: white;
+}
+
+div.Modal button#update{
+    background-color: #1338BE !important;
+    color: white;
+}
+
+div.Modal button#update:hover{
+    background-color: #1520A6 !important;
+    color: white;
+}
+
+div.Modal button.btnDelete{
+    background-color: #E3242B;
+    color: white;
+}
+
+div.Modal button.btnDelete:hover{
+    background-color: #D21404;
+}
+
+/* Modal de Deletar: */
+
+div.modalContent#deleteModal{
+
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 420px;
+
+    background-color: #2D2D2D;
+    color: white;
+    border: none;
+}
+
+div.modalContent#deleteModal label{
+    margin: 15px;
+}
+
+div.modalContent#deleteModal input{
+
+    font-size: 15px;
+    height: 45px;
+    width: 210px;
+    padding: 2px 20px;
+
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+
+div.modalContent#deleteModal input:focus{
+    outline: 2px solid rgba(20, 218, 20, 0.667);
+}
+
+div.modalContent#deleteModal div.footer{
+    margin-top: 30px;
+}
+
+/* Modal de Atualizar */
+
+div.modalContent#updateModal{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 720px;
+
+    background-color: #2D2D2D;
+    color: white;
+    border: none;
+}
+
+div.modalContent#updateModal label{
+    margin: 15px;
+}
+
+div.modalContent#updateModal input{
+
+    font-size: 15px;
+    height: 25px;
+    width: 210px;
+    padding: 2px 20px;
+
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+
+div.modalContent#updateModal input:focus{
+    outline: 2px solid rgba(20, 218, 20, 0.667);
+}
+
+div.modalContent#updateModal div.footer{
+    margin-top: 30px;
+}
+
+/* Modal de Criar */
+
+div.modalContent#createModal{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 640px;
+
+    background-color: #2D2D2D;
+    color: white;
+    border: none;
+}
+
+div.modalContent#createModal label{
+    margin: 15px;
+}
+
+div.modalContent#createModal input{
+
+    font-size: 15px;
+    height: 25px;
+    width: 210px;
+    padding: 2px 20px;
+
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+
+div.modalContent#createModal input:focus{
+    outline: 2px solid rgba(20, 218, 20, 0.667);
+}
+
+div.modalContent#createModal div.footer{
+    margin-top: 30px;
+}
+
+/* Responsividade dos Modais */
+
+/* 1º Ponto de Quebra 600px */
+
+@media only screen and (max-width: 600px){
+    div.modalContent#createModal{
+        width: 280px;
+        height: 480px;
+    }
+
+    div.modalContent#updateModal{
+        width: 280px;
+        height: 560px;
+    }
+
+    div.modalContent#deleteModal{
+        width: 280px;
+        height: 390px;
+    }
+}

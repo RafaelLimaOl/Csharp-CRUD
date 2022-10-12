@@ -1,0 +1,120 @@
+
+/* Tabela Css:  */
+
+div.tableContainer{
+    width: 80%;    
+}
+
+div.tableContainer table{
+    width: 100%;
+    background-color: #0A0A0A;
+
+    margin: 3rem 0px 5rem 0px;
+}
+div.tableContainer thead{
+    position: relative;
+    width: 100%;
+    height: 50px;
+
+    background-color: #2D2D2D;
+}
+
+div.tableContainer thead tr th{
+    font-size: 1.5rem;
+    letter-spacing: 1.8px;
+    vertical-align: middle;
+}
+
+div.tableContainer tbody tr td{
+    height: 60px;
+    color: black;
+    background: #f5f5f5;
+}
+
+div.tableContainer tbody tr td:nth-last-child(){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+div.tableContainer tbody tr td button#update{
+    margin-right: 15px;
+}
+
+
+/* Media Query */
+
+/* 1º Ponto de Quebra: 910px */
+
+
+@media only screen and (max-width: 910px) {
+
+    div.tableContainer table{
+        background-color: #282c34;
+    }
+
+    div.tableContainer thead{
+        display: none;
+    }
+
+    div.tableContainer tbody, div.tableContainer tr, div.tableContainer td{
+        display: block;
+        width: 100%;
+        
+        background-color: #282c34;
+    }
+
+    div.tableContainer tbody tr td{
+        
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        vertical-align: middle;
+
+        padding-right: 10px;
+
+        border-top: 0.4px solid #000;
+    }
+
+    div.tableContainer tbody tr td:before{
+        content: attr(data-label);
+
+        position: absolute;
+        left: 15%;
+
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    div.tableContainer tbody tr td.last{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    div.tableContainer tbody tr td.last .Modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .6rem;
+    }
+
+    div.tableContainer tbody tr td.last .Modal button#update{
+        width: 180px;
+        margin-right: 0px;
+    }
+
+    div.tableContainer tbody tr td.last .Modal button.btnDelete{
+        width: 180px;
+        margin-right: 0px;
+    }
+}
