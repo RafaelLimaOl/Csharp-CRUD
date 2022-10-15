@@ -1,6 +1,6 @@
 ﻿# <h1 align="center">🔗 C# CRUD</h1>
 
-<p align="center">Um projeto CRUD utilizando C# para o BackEnd e React para o FrontENd!</p>
+<p align="center">Um projeto CRUD utilizando C# para o BackEnd e React para o FrontEnd!</p>
 
 # Tópicos:
 
