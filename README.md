@@ -78,7 +78,7 @@ Update-Database
 ```
 
 <h1 align="center" id="licenca">License</h1>
-<a href="https://github.com/RafaelLimaOl/API-React/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
+<a href="https://github.com/RafaelLimaOl/Csharp-CRUD/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
 
 
 <h1 id="screen">Screen Shots</h1>
