@@ -80,8 +80,6 @@ Update-Database
 <h1 align="center" id="licenca">License</h1>
 <a href="https://github.com/RafaelLimaOl/API-React/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
 
-<h2 align="center" id="status">🛠Projeto Finalizado🛠</h2>
-
 
 <h1 id="screen">Screen Shots</h1>
 
@@ -93,7 +91,7 @@ Update-Database
 
 ![screenshot02](https://user-images.githubusercontent.com/115644899/195409843-cbb0dd0d-6b56-460f-a7d5-a2f624045ab7.png)
 
-- Modais:
+<h1>Modais</h1>
 
 - Criar Aluno:
 
@@ -107,5 +105,4 @@ Update-Database
 
 ![screenshot05](https://user-images.githubusercontent.com/115644899/195410184-758b7d00-28c4-4619-8c8b-b3e0369a2d53.png)
 
-
-
+<h2 align="center" id="status">🛠Projeto Finalizado🛠</h2>
