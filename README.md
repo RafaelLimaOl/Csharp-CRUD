@@ -44,10 +44,38 @@ $ npm install
 # Por fim execute a aplicação:
 $ npm start
 
-
-
 ```
 <p>Por padrão o localhost terá o porte 3000 por tanto a aplicação ficará no seguinte <a href="http://localhost:3000">Endereço</a></p>
+
+<p>Execução do BackEnd</p>
+<p>Caso o seu editor de código consiga executar entre na pasta correspondente ao BankEnd</p>
+
+``` bash
+
+# Exemplo Visual Studio Code com .NET
+$ cd CrudApplication
+$ dotnet run
+
+```
+
+<p>Caso o editor de código não consiga executar. Baixe o Visual Studio</p>
+
+<p>Com a aplicação Aberta no Visual Studio</p>
+<p>Abra o arquivo appsettings.json</p>
+<p>Insira o caminho para a conexão do Banco de Dados:</p>
+
+```
+  "ConnectionStrings": {
+    "ConnectionDb": "Server=*O nome da Conexão presente no SQL Server*; Database=*Nome do Banco de Dados*; Trusted_Connectio=True; ",
+    // No campo DataBase aconselhável utilizar o nome AlunoDb
+  }
+```
+
+<p>Execute a o seguinte comando no Terminal</p>
+
+```
+Update-Database
+```
 
 <h1 align="center" id="licenca">License</h1>
 <a href="https://github.com/RafaelLimaOl/API-React/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
