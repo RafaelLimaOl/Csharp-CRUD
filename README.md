@@ -1,39 +1,61 @@
-﻿# C# CRUD Project
- 
- <div align="center">  
+﻿# <h1 align="center">🔗 C# CRUD</h1>
 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelLimaOl&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
- 
- # Tecnologias Usadas:
-<span>FrontEnd: React JS</span> <span>--</span> <span>BackEnd: C#</span>
+<p align="center">Um projeto CRUD utilizando C# para o BackEnd e React para o FrontENd!</p>
 
-![React.js](https://img.shields.io/badge/-React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
-![C#](https://img.shields.io/badge/-cSharp-0D1117?style=for-the-badge&logo=csharp&logoColor=purple&labelColor=0D1117)&nbsp; 
+# Tópicos:
 
-</div>
+<p align="center">
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#pre_req">Pré-Requisitos</a> • 
+ <a href="#licenca">Licença</a> •
+ <a href="#status">Status do Projeto</a> •
+ <a href="#screen">Screen Shots</a>
+</p>
 
-# Descrição
+<h1 align="center" id="tecnologias"> 💻 Tecnologias Utilizadas: </h1>
 
-<p>Um desafio proposto, objetivo criar uma aplicação fullStack com C#</p>
-- Um projeto CRUD de cadastro de Alunos
-- Responsivo
+<img src="https://img.shields.io/static/v1?label=React&message=FrontEnd&color=61DAFB&style=for-the-badge&logo=ghost"/> <img src="https://img.shields.io/static/v1?label=Node.JS&message=Packets Manege&color=339933&style=for-the-badge&logo=ghost"/> <img src="https://img.shields.io/static/v1?label=Axios&message=HTTP Request&color=5A29E4&style=for-the-badge&logo=ghost"/> <img src="https://img.shields.io/static/v1?label=C Sharp&message=BakEnd&color=239120&style=for-the-badge&logo=ghost"/> <img src="https://img.shields.io/static/v1?label=.NET&message=FrameWord&color=512BD4&style=for-the-badge&logo=ghost"/>  <img src="https://img.shields.io/static/v1?label=SQL server&message=Banco de Dados&color=CC2927&style=for-the-badge&logo=ghost"/> 
 
-# Criação do BackEND:  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
+- React: Para a parte visual do Site,  
+- Node.JS: Para a instalação de Dependências do projeto, 
+- Axios:  Para as requisições HTTP, 
+- C# : Para a criação do FrontEnd,
+- .Net: C# FrameWork,
+- SQL server: Banco de Dados
 
-- C# Utilizado para fazer a coneção do FrontEnd para o BackEnd:
-- Criação dos Métodos **CREATE**, **READ**, **UPDATE**, **DELETE**! 
+<h1 align="center" id="pre_req">⚠Pré - Requisitos⚠</h1>
+<p align="center">Para executar esse projeto é necessário ter as Seguintes Ferramentas Instaladas: </p>
 
-# Criação do FrontEnd:   <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> 
+ <span align="center"><a href="https://nodejs.org/en/download/">Node.JS</a></span>
+ <p>E um editor de código da sua preferência</p>
 
-- REACT Utilizado para fazer toda a parte Visual do projeto:
-- Utilização do AXIOS para a requisição HTTP e conexão com o BackEnd
+```bash
+
+# Com o seu editor de código aberto, abra o terminal e Digite o seguinte comando:
+$ git clone https://github.com/RafaelLimaOl/Csharp-CRUD.git
+
+# Entre na paste correspondente ao FrontEnd:
+$ cd Client
+$ cd crud-csharp
+
+# Instale as dependências do Node:
+$ npm install
+
+# Por fim execute a aplicação:
+$ npm start
 
 
-# Banco de Dados:
 
-- SQL Server Utilizado para o Armazenamento dos Dados:  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
+```
+<p>Por padrão o localhost terá o porte 3000 por tanto a aplicação ficará no seguinte <a href="http://localhost:3000">Endereço</a></p>
 
-# ScreenShots:
+<h1 align="center" id="licenca">License</h1>
+<a href="https://github.com/RafaelLimaOl/API-React/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
+
+<h2 align="center" id="status">🛠Projeto Finalizado🛠</h2>
+
+
+<h1 id="screen">Screen Shots</h1>
 
 - Tela Principal
 
