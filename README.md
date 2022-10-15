@@ -8,8 +8,8 @@
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#pre_req">Pré-Requisitos</a> • 
  <a href="#licenca">Licença</a> •
- <a href="#status">Status do Projeto</a> •
- <a href="#screen">Screen Shots</a>
+ <a href="#screen">Screen Shots</a> •
+ <a href="#status">Status do Projeto</a> 
 </p>
 
 <h1 align="center" id="tecnologias"> 💻 Tecnologias Utilizadas: </h1>
